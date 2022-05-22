@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* header style */
+
+header h1{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica;
+    font-weight: 900;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+
+header{
+    height: 100px;
+    background-color: rgb(157, 185, 226);
+    color: yellow;
+
+}
+
+/* search input */
+input[type="text"]{
+    display: block;
+    float: right;
+    border-radius: 10px;
+    text-align: left;
+
+}
+
+/* navigation bar */
+header nav ul li{
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    margin: 20px 0px 0px;
+    text-align: left;
+}
+
+#subheader{
+    background: url(images/excavator.JPG) no-repeat;
+    background-size: 100%;
+    color: rgb(10, 10, 9);
+    text-align: center;
+    font-size: xx-large;
+    font-family: arial;
+    font-weight: bold;
+    height: auto;
+    margin-bottom: 20px;
+    
+}
+
+
+
+/* main container style */
+body{
+    background-color: rgb(222, 230, 247);
+
+}
+.box{
+    float: right;
+}
+
+body div div{
+    background-color: aliceblue;
+    display: block;
+    text-align: center;
+    width: 600px;
+    height: 500px;
+    padding: 0 10px 20px;
+    margin: 0px 20px 10px 10px;
+
+
+}
+
+button{
+    text-align: center;
+    padding: 10px 30px;
+    font: 600;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+div div h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+div div h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px 0px
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    margin: 10px 0px;
+}
+
+
+/* clear fix to fix any collapsed floated container */
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* box p styles the paragraph in the product container */
+.box p{
+    margin: 15px 0px;
+}
+
+/* styling the footer */
+
+footer{
+    background-color: rgb(93, 95, 99);
+    margin-top: 20px;
+    height: auto;
+}
+
+
+ /* style the links on the footer */
+
+footer nav ul{
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    margin: 10px 100px 0px;
+    text-align: left;
+    float: left;
+}
+
+footer nav ul li{
+    margin-bottom: 10px;
+}
+
+/* style the social media link at the footer*/
+
+/* social media images */
+footer nav img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+footer div{
+    display: inline;
+    padding-top: 65px;
+    float: right;
+    padding-right: 20px;
+}
